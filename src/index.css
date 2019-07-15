@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.App{
+  padding: 30px
+}
+.form{
+  width: 24%;
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.form p{
+  color:red;
+}
+.form input{
+  margin-bottom: 10px
+}
+ input, button,select{
+  padding: 10px;
+  border-radius: 5px;
+}
+.lang_btns button, form button{
+  width: 100px;
+  margin: 10px;
+}
+button.btn{
+  width: 70px;
+  margin: 5px
+}
+select{
+  display: block;
+  margin: auto
+}
+.ReactTable button{
+  margin: 0
+}
+button{
+  cursor: pointer;
+}
+
+@media (max-width: 1024px){
+  .lang_btns button{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px
+  }
+}
